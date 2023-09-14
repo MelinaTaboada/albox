@@ -47,7 +47,11 @@ width: 500px;
  .navbar1{
    box-shadow: 0 4px 18px 0 rgba(0,0,0,.12), 0 7px 10px -5px rgba(0,0,0,.15);
     background-color: #00008e;
-    padding: 15px;
+    padding: 20px;
+    }
+
+    ul{
+      align-items: baseline;
     }
 
   li{
@@ -55,7 +59,7 @@ width: 500px;
    list-style: none;
    }
 
-  .nav-item > a{
+  .nav-item > a {
    color: whitesmoke;
    font-size: 0.8em;
    font-weight: bold;
@@ -64,9 +68,24 @@ width: 500px;
    text-decoration: none;
  }
 
+ .grid-lista{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 700px;
+ }
+
+ .nav-item >.active{
+  border: 2px solid rgba(0, 0, 255, 0.457);
+  border-radius: 5px;
+  padding:5px;
+  background-color: rgba(0, 0, 255, 0.457);
+  color: rgb(237, 209, 173);
+ }
+
  .row{
   margin: 50px;
  }
+
 .card-contacto{
   box-shadow: 0 4px 18px 0 rgba(0,0,0,.12), 0 7px 10px -5px rgba(0,0,0,.15);
   border: 2px black solid;
@@ -99,6 +118,12 @@ width: 500px;
 .card-img{
   width: 200px;
 }
+
+.card-title{
+  font-size: 15px;
+  font-weight: 600;
+}
+
  footer{
    background:#00008e; 
    display: inline-block;
