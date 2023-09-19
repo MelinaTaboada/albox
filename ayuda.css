@@ -1,7 +1,13 @@
 :root{
     --sombra: box-shadow: 0 4px 18px 0 rgba(0,0,0,.12), 0 7px 10px -5px rgba(0,0,0,.15);
-
+    --main-bg-color: #0101c2;
 }
+
+body, h1, h2, h3, p{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    }
+    
 main{
     max-width: 1000px;
     width: 90%;
@@ -31,7 +37,7 @@ main{
 }
 
 .categoria:hover path{
-    fill:blue;
+    fill:var(--main-bg-color)
 }
 
 .categoria svg{
@@ -40,11 +46,11 @@ main{
 }
 
 .categoria.activa{
-    border: 2px solid blue
+    border: 2px solid var(--main-bg-color)
 }
 
 .categoria.activa path{
-    fill:blue
+    fill: var(--main-bg-color)
 }
 
 
@@ -76,7 +82,7 @@ main{
 }
 
 .contenedor-pregunta.activa{
-    border: 2px solid blue;
+    border: 2px solid var(--main-bg-color);
 }
 
 

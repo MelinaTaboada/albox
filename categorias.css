@@ -2,21 +2,26 @@
     --sombra-box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.317), 0 7px 10px -5px rgba(0, 0, 0, 0.232);
 }
 
-
+body, h1, h2, h3, p{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    }
+    
 .wrap{
-    margin-top: 20px;
+   margin: 20px 200px;
 }
 .store-wrapper{
     display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .category-list{
     display: flex;
     flex-direction: column;
-    padding:20px;
-    margin:15px 5px;
-    width: 25%;
-    height: 700px;
+    padding:10px;
+    margin-top:15px;
+    height: fit-content;
     border: 2px solid white;
     border-radius: 5px;
     box-shadow: var(--sombra-box-shadow);
@@ -27,9 +32,9 @@
     padding-bottom: 0px;
 }
 .products-list{
-    margin: 0 30px;
+    margin: 0 10px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-content: center;
     
 }
@@ -50,3 +55,21 @@
     box-shadow: var(--sombra-box-shadow);
 }
 
+.card:hover{
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.726), 0 7px 10px -5px rgba(0, 0, 0, 0.641); ;
+}
+
+.pagination{
+    margin-top: 50px;
+}
+.page-link{
+    color: black;
+    font-weight: 600;
+    margin: 5px;
+    border:none;
+}
+
+.page-link:hover{
+    background-color: gainsboro;
+    color: aliceblue;
+}

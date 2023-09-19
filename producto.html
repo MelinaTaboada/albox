@@ -6,19 +6,19 @@
    <meta name="viewport" content="width=device-width, initial-scale=0">
    <script src="https://kit.fontawesome.com/9414838ca3.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="swiper-bundle.min.css">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Roboto&display=swap" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
    <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="style/contacto.css">
-   <title>Contacto</title>
+   <link rel="stylesheet" href="style/producto.css">
+   <title>Categorias</title>
 </head>
 
 <body>
   <header>
     <nav class="navbar">
-       <div class="container">
+       <div class="container"
          <div class="image"><img src="assets/albox2.jpg" width="350px" alt="Logo-albox"></div>
          <div>
            <form class="form-busqueda">
@@ -39,13 +39,13 @@
      <a aria-current="page" href="index.html">INICIO</a>
    </li>
    <li class="nav-item">
-     <a href="categorias.html">CATEGORIAS</a>
+     <a class="active" href="categorias.html">CATEGORIAS</a>
    </li>
    <li class="nav-item">
      <a href="ayuda.html">AYUDA</a>
    </li>
    <li class="nav-item">
-     <a class="active" href="contacto.html">CONTACTO</a>
+     <a href="contacto.html">CONTACTO</a>
    </li>
    <li class="nav-item">
      <a href="nosotros.html">NOSOTROS</a>
@@ -54,60 +54,60 @@
 </nav>
 </header>
 
-
-<div class="row">
-  <div class="col-sm-4">
-    <a href="https://api.whatsapp.com/send?phone=%2B541126081608&data=ARC6rc6DrgKANSpAVVgpBw8ltIS8tNuBQ90H99YYmguHV2OYd6Bzwy5_MNeVlJyI9Vla8_5Rxt8rt4Y0BLpY7RHJpsPn9E3Z-ix73gZHpg2Q6gMVJm3X_Nzk4YLk3la92M_rFV0ezoUh6NvVcFgYHTs&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR1q1JXTTWtFckM2ns3FrHBkTOcAmhAj25L-TBCZfR9GyJD9aUB2_FwoB6c" target="_blank" style="cursor: pointer; text-decoration: none;">
-    <div class="card-contacto">
-      <div class="card-body">
-        <h6 class="card-title"><strong>Whatsapp</strong></h6>
-        <br>
-        <p><strong> +54 9 11 2608-1608</strong></p>
-      </div>
+<div class="container">
+    <div class="row">
+        <div class="col-5">
+            <img class="foto-producto" src="assets/auric-nisuta.jpg" alt="Auriculares Nisuta">
+        </div>
+        <div class="col-7">
+          <div class="desc-producto">
+            <h1><strong>Auriculares Bluetooth Nisuta</strong></h1>
+            <hr>
+            <h3>$35.00 IVA Incluido</h3>
+          </div>
+        <div class="col-12">
+          <div class="compra">
+            <div class="cantidad-productos">
+              <label for="cant-productos"><strong>CANTIDAD</strong></label>
+                <select name="cantidad" id="productos" min="1" required onchange="ValidaryCalcularMonto()">
+                  <option value="1">1</option>
+                  <option value="2">2</option> 
+                  <option value="3">3</option>      
+                  <option value="4">4</option> 
+                  <option value="5">5</option> 
+                  <option value="5">6</option> 
+                  <option value="5">7</option> 
+                  <option value="5">8</option> 
+                  <option value="5">9</option> 
+                  <option value="5">10</option> 
+                </select>
+            </div>
+            <div class="btn-carrito">
+              <a href="#" class="btn btn-outline-dark">AGREGAR AL CARRITO</a>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-12">
+          <h2>Especificaciones</h2>
+          <hr>
+          <div class="descripcion">
+            <p><strong>Marca:</strong> Nisuta</p>
+            <p><strong>Duracion de batería:</strong> 2 hs</p>
+            <p><strong>Alcance inalámbrico:</strong> 10 m</p>
+            <p><strong>Modo manos libres:</strong> Incluido</p>
+            <p><strong>Tecnología:</strong> Wireless</p>
+            <p><strong>Incluye estuche de carga:</strong> Si</p>
+            <p><strong>Microfono:</strong> Incorporado</p>
+          </div>
+        </div>
     </div>
-  </a>
-  </div>
-  <div class="col-sm-4">
-    <a href="https://www.google.com/maps/place/ALBOX+Ingenieria+SRL/@-34.5756592,-58.5406654,15z/data=!4m6!3m5!1s0x95bcb77056440c51:0xa7cd521288e4398c!8m2!3d-34.5756592!4d-58.5406654!16s%2Fg%2F1vd968rg?entry=ttu" target="_blank" style="cursor: pointer;text-decoration: none;">
-    <div class="card-contacto">
-      <div class="card-body">
-        <h6 class="card-title"><strong>NOS ENCONTRAMOS EN</strong></h6>
-        <br>
-        <p><strong>San Lorenzo 2280, San Martin</strong>
-      </div>
-    </div>
-  </a>
-  </div>
-  <div class="col-sm-4">
-    <div class="card-contacto">
-      <div class="card-body">
-        <h6 class="card-title"><strong>LLAMANOS AL</strong></h6>
-        <br>
-        <p><strong>4755-5999</strong></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card-contacto">
-      <div class="card-body">
-        <h6 class="card-title"><strong>HORARIOS DE ATENCION</strong></h6>
-        <br>
-        <p><strong>Lunes a viernes de 9 a 18 hs.</strong></p>
-        <p><strong>Sábados de 9 a 13 hs.</strong></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card-contacto">
-      <div class="card-body">
-        <h6 class="card-title"><strong>CONSULTAS</strong></h6>
-        <br>
-        <p><strong>ventas@albox.com.ar</strong></p>
-        <p><strong>compras@albox.com.ar</strong></p>
-      </div>
-    </div>
-  </div>
 </div>
+
+
+
+
+
 
   <footer>
     <div class="grid-container-2">
@@ -131,12 +131,8 @@
       
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 </body>
 
-<script src="swiper-bundle.min.js"></script>
-<script src="script.js"></script>
 
 
 </html>
