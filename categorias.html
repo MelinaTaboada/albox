@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="swiper-bundle.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -61,237 +61,37 @@
     <h1>ELEGÍ TU PRODUCTO</h1>
     <hr>
     <div class="store-wrapper">
-      <div class="category-list" id="categorias">
-        <h5>Categorias:</h5>
+      <div class="category-list">
+        <h5>Categorias</h5>
         <hr>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Auriculares y microfonos</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Cables para celular</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Cables de alimentacion</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Cables de audio</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Cables de red UTP</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Cartuchos</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Cámaras</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Notebooks y tablets</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Fuentes de alimentación</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Estabilizadores</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Fundas y maletines</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Mouses</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Switch HUB USB</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Pendrives, memorias y Micro-SD</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Wireless y router WIFI</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Newtronic</a>
-        </div>
-        <div>
-          <input type="radio" id="select-item" name="select-item" value="select-item" checked />
-          <a href="#" class="category-items" category="all">Articulos para impresoras</a>
-        </div>
+        <div id="all_categories"></div>
       </div>
-      <section class="products-list">
 
-        <div class="card">
-          <a href="producto.html" style="text-decoration: none; color: black;">
-            <img src="assets/auric-nisuta.jpg" class="card-img" alt="NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303">
-            <div class="card-body">
-              <h5 class="card-title">NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303</h5>
-              <p class="card-text">$1259 IVA incluido</p>
-              <a href="#" class="btn btn-outline-dark">Agregar al carrito</a>
-            </div>
-          </a>
+      <section class="products-list" id="results">
+        <div class="container">
         </div>
-
-        <div class="card">
-          <a href="producto.html" style="text-decoration: none; color: black;">
-            <img src="assets/auric-nisuta.jpg" class="card-img" alt="NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303">
-            <div class="card-body">
-              <h5 class="card-title">NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303</h5>
-              <p class="card-text">$1259 IVA incluido</p>
-              <a href="#" class="btn btn-outline-dark">Agregar al carrito</a>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="producto.html" style="text-decoration: none; color: black;">
-            <img src="assets/auric-nisuta.jpg" class="card-img" alt="NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303">
-            <div class="card-body">
-              <h5 class="card-title">NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303</h5>
-              <p class="card-text">$1259 IVA incluido</p>
-              <a href="#" class="btn btn-outline-dark">Agregar al carrito</a>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="producto.html" style="text-decoration: none; color: black;">
-            <img src="assets/auric-nisuta.jpg" class="card-img" alt="NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303">
-            <div class="card-body">
-              <h5 class="card-title">NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303</h5>
-              <p class="card-text">$1259 IVA incluido</p>
-              <a href="#" class="btn btn-outline-dark">Agregar al carrito</a>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="producto.html" style="text-decoration: none; color: black;">
-            <img src="assets/auric-nisuta.jpg" class="card-img" alt="NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303">
-            <div class="card-body">
-              <h5 class="card-title">NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303</h5>
-              <p class="card-text">$1259 IVA incluido</p>
-              <a href="#" class="btn btn-outline-dark">Agregar al carrito</a>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="producto.html" style="text-decoration: none; color: black;">
-            <img src="assets/auric-nisuta.jpg" class="card-img" alt="NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303">
-            <div class="card-body">
-              <h5 class="card-title">NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303</h5>
-              <p class="card-text">$1259 IVA incluido</p>
-              <a href="#" class="btn btn-outline-dark">Agregar al carrito</a>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="producto.html" style="text-decoration: none; color: black;">
-            <img src="assets/auric-nisuta.jpg" class="card-img" alt="NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303">
-            <div class="card-body">
-              <h5 class="card-title">NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303</h5>
-              <p class="card-text">$1259 IVA incluido</p>
-              <a href="#" class="btn btn-outline-dark">Agregar al carrito</a>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="producto.html" style="text-decoration: none; color: black;">
-            <img src="assets/auric-nisuta.jpg" class="card-img" alt="NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303">
-            <div class="card-body">
-              <h5 class="card-title">NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303</h5>
-              <p class="card-text">$1259 IVA incluido</p>
-              <a href="#" class="btn btn-outline-dark">Agregar al carrito</a>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="producto.html" style="text-decoration: none; color: black;">
-            <img src="assets/auric-nisuta.jpg" class="card-img" alt="NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303">
-            <div class="card-body">
-              <h5 class="card-title">NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303</h5>
-              <p class="card-text">$1259 IVA incluido</p>
-              <a href="#" class="btn btn-outline-dark">Agregar al carrito</a>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="producto.html" style="text-decoration: none; color: black;">
-            <img src="assets/auric-nisuta.jpg" class="card-img" alt="NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303">
-            <div class="card-body">
-              <h5 class="card-title">NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303</h5>
-              <p class="card-text">$1259 IVA incluido</p>
-              <a href="#" class="btn btn-outline-dark">Agregar al carrito</a>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="producto.html" style="text-decoration: none; color: black;">
-            <img src="assets/auric-nisuta.jpg" class="card-img" alt="NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303">
-            <div class="card-body">
-              <h5 class="card-title">NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303</h5>
-              <p class="card-text">$1259 IVA incluido</p>
-              <a href="#" class="btn btn-outline-dark">Agregar al carrito</a>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <a href="producto.html" style="text-decoration: none; color: black;">
-            <img src="assets/auric-nisuta.jpg" class="card-img" alt="NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303">
-            <div class="card-body">
-              <h5 class="card-title">NOTEBOOK BANGHO,MAX L5 I7 Free,*Oferta.2303</h5>
-              <p class="card-text">$1259 IVA incluido</p>
-              <a href="#" class="btn btn-outline-dark">Agregar al carrito</a>
-            </div>
-          </a>
-        </div>
-
       </section>
     </div>
-
     <nav aria-label="Page navigation">
       <ul class="pagination justify-content-center">
         <li class="page-item">
           <a class="page-link" href="#">Anterior</a>
         </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#" onclick="searchProducts('1')">1</a></li>
+        <li class="page-item"><a class="page-link" href="#" onclick="searchProducts('2')">2</a></li>
         <li class="page-item"><a class="page-link" href="#">3</a></li>
         <li class="page-item"><a class="page-link" href="#">4</a></li>
         <li class="page-item"><a class="page-link" href="#">5</a></li>
         <li class="page-item"><a class="page-link" href="#">6</a></li>
         <li class="page-item"><a class="page-link" href="#">7</a></li>
-        <li class="page-item"><a class="page-link" href="#">8
-
-          </a></li>
+        <li class="page-item"><a class="page-link" href="#">8</a></li>
         <li class="page-item">
           <a class="page-link" href="#">Siguiente</a>
         </li>
       </ul>
     </nav>
-
   </div>
+
 
 
   <footer>
@@ -324,11 +124,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <script src="productos.js"></script>
+  <script src="categorias.js"></script>
 
 </body>
-
-<script src="swiper-bundle.min.js"></script>
-<script src="js/seleccionCategorias.js"></script>
-
 
 </html>
