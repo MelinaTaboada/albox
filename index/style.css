@@ -117,8 +117,8 @@ width: 500px;
   font-size: 70px;
   position: relative;
 }
-
-.swiper-slide{
+/* 
+.card-swiper-slide{
   margin:40px;
   display: flex;
   align-items: center;
@@ -136,7 +136,7 @@ width: 500px;
 
 .swiper-slide:hover{
   box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.726), 0 7px 10px -5px rgba(0, 0, 0, 0.641); ;
-}
+} */
 
  footer{
    background:var(--main-bg-color); 
@@ -177,3 +177,47 @@ border-width: 2px;
    background-color: antiquewhite;
 }
 
+
+/* Productos Destacados */
+
+
+
+.mySwiper{
+  width: 90%;
+  height: 400px;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:15px 15px;
+  width: 250px;
+  height: 350px;
+  box-shadow: var(--sombra-box-shadow);
+}
+
+.card a{
+  text-decoration: none;
+}
+.card h2{
+  font-size: 15px;
+  font-weight: 600;
+  align-content: center;
+  text-align: center;
+  width: 200px;
+  text-decoration: none;
+  color:black;
+}
+
+.card p{
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+
+}
+
+.card:hover{
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.726), 0 7px 10px -5px rgba(0, 0, 0, 0.641); ;
+} 

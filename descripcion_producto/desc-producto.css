@@ -1,0 +1,23 @@
+.container {
+    margin: 5px 200px;
+}
+
+.col-5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-5 img {
+    width: 400px;
+    object-fit: cover;
+}
+
+h2{
+    font-weight: 600;
+    letter-spacing: -0;
+}
+
+h4{
+    font-weight: 600;
+    letter-spacing: -0;
+}
